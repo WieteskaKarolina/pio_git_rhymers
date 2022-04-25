@@ -8,7 +8,7 @@ class RhymersDemo {
 	public static void main(String[] args) {
 		Rhymersfactory factory = new DefaultRhymersFactory();
 		
-		defaultCountOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
+		DefaultCountingOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
 				factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
 		
 		for (int i = 1; i < 15; i++)
@@ -26,7 +26,7 @@ class RhymersDemo {
 		}
 		
 		System.out.println("total rejected is "
-				+ ((hanoiRhymer) rhymers[3]).reportRejected());
+				+ ((HanoiRhymer) rhymers[3]).reportRejected());
 		
 	}
 	
