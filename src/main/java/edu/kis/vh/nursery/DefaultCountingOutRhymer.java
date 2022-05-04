@@ -2,6 +2,12 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
+	/**
+	 * klasa ma metody, które dodaja nowe elementy do tablicy numbers
+	 * sprawdzajace czy tablica nie jest przepelniona
+	 * zwracajace oststni element tablicy
+	 * sprawdzajace poprawnosc emenetu ktory ma byc dodany
+	 */
 	private static final int NUMBERSIZE = 12;
 	private static final int ERROR = -1;
 	private static final int FULL = 11;
